@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Tropicália</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="https://media.licdn.com/dms/image/v2/D4E1BAQH9I1vW2p5_xg/company-background_10000/company-background_10000/0/1657031369030/sccorinthians_cover?e=2147483647&v=beta&t=InJXqvqv1CVJcjHfbrlsVlKa9StOYr4PhNp41PeuHQE" alt="Logotipo da Tropicália" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>          
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Bem-vindos ao Bando de Loucos</h1>
+                    <img src="https://historiadofutebol.com/blog/wp-content/uploads/2016/02/2136-500x379.jpg" alt="Logotipo secundário da Tropicália" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
+            <div class="container d-flex align-items-center ">
+                  <div class="col-5">
+                    <h2>Um pouco sobre Sport Club Corinthians</h2>
+                    <p class="p-2">O Sport Club Corinthians Paulista foi fundado em 1º de setembro de 1910, por operários do bairro do Bom Retiro, em São Paulo. O clube é considerado um dos mais bem-sucedidos do futebol brasileiro
+                        .Fundação, 
+o clube foi fundado por um grupo de operários, entre eles Anselmo Corrêa, Antônio Pereira, Carlos Silva, Joaquim Ambrósio e Raphael Perrone 
+o nome foi inspirado no Corinthian Football Club, uma equipe amadora da Inglaterra 
+ primeiro presidente do clube foi Miguel Battaglia. 
+ Primeiros jogos, 
+o primeiro jogo do Corinthians foi contra o União da Lapa, em 14 de setembro de 1910, perdendo por 1 a 0 
+o primeiro título do clube foi o Campeonato Paulista de 1914, conquistado de forma invicta
+
+            </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria de títulos">
+            <h2 class="text-center pt-5">Galeria de Títulos e maior Idolo</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://i.pinimg.com/736x/cd/bc/d6/cdbcd6adb6b49b0c5710002c11159f91.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://s2-ge.glbimg.com/yLo2TYCP06Pd0vyDG6cWZXsFMqI=/1200x/smart/filters:cover():strip_icc()/s.glbimg.com/es/ge/f/original/2019/12/03/socrates.jpg" class="img-fluid rounded-5" height="390" width="390"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
